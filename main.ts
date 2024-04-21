@@ -12,6 +12,7 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
     music.playTone(784, music.beat(BeatFraction.Whole))
 })
 basic.setLedColors(0xff9da5, 0x00ffff, 0xb09eff)
+basic.pause(500)
 basic.forever(function () {
     basic.setLedColors(0xff0000, 0xff8000, 0xffff00)
     basic.showString("Frieda", 50)
