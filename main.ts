@@ -14,9 +14,9 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
 basic.setLedColors(0xff9da5, 0x00ffff, 0xb09eff)
 basic.pause(500)
 basic.forever(function () {
+    basic.setLedColors(0x00ff00, 0x00ffff, 0x0000ff)
+    basic.pause(500)
     basic.setLedColors(0xff0000, 0xff8000, 0xffff00)
     basic.showString("Frieda", 50)
     basic.pause(2000)
-    basic.setLedColors(0x00ff00, 0x00ffff, 0x0000ff)
-    basic.pause(500)
 })
